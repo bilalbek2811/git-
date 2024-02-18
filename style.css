@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+body {
+  background: rgb(199, 251, 63);
+  background: radial-gradient(
+    circle,
+    rgba(199, 251, 63, 1) 0%,
+    rgba(70, 252, 167, 1) 100%
+  );
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+  height: 300px;
+  border-radius: 50px;
+  background: rgb(255, 203, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 203, 10, 1) 0%,
+    rgba(217, 255, 11, 1) 48%,
+    rgba(18, 255, 0, 1) 100%
+  );
+}
+
+.cards input {
+  width: 300px;
+  height: 30px;
+}
+.cards button {
+  width: 150px;
+  height: 30px;
+}
+.create {
+  width: 450px;
+  height: 400px;
+  background: rgb(255, 203, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 203, 10, 1) 0%,
+    rgba(217, 255, 11, 1) 48%,
+    rgba(18, 255, 0, 1) 100%
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+.ul {
+  width: 90%;
+  height: 40px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background: white; */
+}
+.btnCreate {
+  background: rgb(44, 203, 29);
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+.btnContact {
+  background: rgb(44, 203, 29);
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
